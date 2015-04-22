@@ -1,0 +1,84 @@
+h1 {
+  color: orange;
+  font-size: 900%;
+  text-align: center;
+}
+
+h1 span{
+  color: blue;
+}
+
+h2 {
+  color: black;
+  text-font: bold;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .my-class {
+    display: inline;
+  }
+}
+
+img {
+  float: left;
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+}
+
+.column {
+  width: 300px;
+  float: left;
+}
+
+body{
+  color: blue;
+  text-align: center;
+  font-size: 200%;
+}
+
+a:link {
+  color: orange;
+}
+
+/* unvisited link */
+a:link {
+    color: orange;
+}
+
+/* visited link */
+a:visited {
+    color: orange;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* selected link */
+a:active {
+    color: orange;
+}
+
+.my-class {
+  margin: 12px;
+  border: 2px solid green;
+  padding: 4px;
+  background-color: yellow;
+}
+
+
+.container {
+    width: 1000px;
+    height: 900px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
